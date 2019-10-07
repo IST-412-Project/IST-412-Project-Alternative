@@ -12,9 +12,8 @@ public class ManageCntl
         return;
     }
     
-    public void addRecord()
+    public void addRecord(PatientRecord patientRecord)
     {
-        
+        patientRecord = PatientRecord();
     }
 }
-
