@@ -1,6 +1,6 @@
 package ist412testproject;
 
-public class Patient 
+public class Patient
 {
     private long PatientID;
     private String firstName;
@@ -35,7 +35,12 @@ public class Patient
     public String getBirthDate() {
         return birthDate;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Patient{" + "PatientID=" + PatientID + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", birthDate=" + birthDate + '}';
+    }
+
+
 
 }
